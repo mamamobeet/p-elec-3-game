@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://4uofg640l3xg"]
+
+[ext_resource type="PackedScene" uid="uid://mkt7c1rxd17d" path="res://scenes/box.tscn" id="1_nnsk1"]
+[ext_resource type="PackedScene" uid="uid://b6ihc1uybk3vk" path="res://scenes/player.tscn" id="2_rwgxs"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_e5uuo"]
+
+[node name="World" type="Node2D" unique_id=708139170]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="." unique_id=693685711]
+modulate = Color(0.59, 0.4425, 0.48675, 1)
+position = Vector2(578, 324)
+scale = Vector2(1235.9999, 724)
+mesh = SubResource("QuadMesh_e5uuo")
+metadata/_edit_lock_ = true
+
+[node name="Box" parent="." unique_id=1351509428 instance=ExtResource("1_nnsk1")]
+position = Vector2(375, 234)
+
+[node name="Player" parent="." unique_id=2064298885 instance=ExtResource("2_rwgxs")]
+position = Vector2(507, 364)

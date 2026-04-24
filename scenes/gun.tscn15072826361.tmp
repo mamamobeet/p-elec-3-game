@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://crgi2wodpes46"]
+
+[ext_resource type="Script" uid="uid://cftdpt2d2hnsu" path="res://scripts/gun.gd" id="1_x77fm"]
+[ext_resource type="Texture2D" uid="uid://b1usixq72vcsi" path="res://assets/textures/shooter_essentials.png" id="2_og67c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_og67c"]
+atlas = ExtResource("2_og67c")
+region = Rect2(145, 4, 14, 9)
+
+[node name="Gun" type="Node2D" unique_id=936065167]
+script = ExtResource("1_x77fm")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1702302328]
+scale = Vector2(3.2, 3.2)
+texture = SubResource("AtlasTexture_og67c")

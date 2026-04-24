@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://b6ihc1uybk3vk"]
+
+[ext_resource type="Texture2D" uid="uid://b1usixq72vcsi" path="res://assets/textures/shooter_essentials.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://b8rj710mr34u5" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="PackedScene" uid="uid://crgi2wodpes46" path="res://scenes/gun.tscn" id="3_qhqgy"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhqgy"]
+atlas = ExtResource("1_3vyb7")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dqkch"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2els")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhqgy")
+}],
+"loop": true,
+"name": &"shoot",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g2els"]
+radius = 5.0
+height = 20.0
+
+[node name="Player" type="CharacterBody2D" unique_id=2064298885]
+script = ExtResource("1_g2els")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="." unique_id=1879111103]
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_dqkch")
+animation = &"shoot"
+frame_progress = 0.75537986
+
+[node name="Gun" parent="." unique_id=936065167 instance=ExtResource("3_qhqgy")]
+position = Vector2(47, 25)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2098719408]
+position = Vector2(-3, 0)
+scale = Vector2(3, 3)
+shape = SubResource("CapsuleShape2D_g2els")
