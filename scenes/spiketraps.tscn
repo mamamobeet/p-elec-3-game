@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://decmsxtd6f35u"]
+
+[ext_resource type="Script" uid="uid://clyxhwgny0jly" path="res://scenes/spiketraps.gd" id="1_8pa67"]
+[ext_resource type="Texture2D" uid="uid://bg87jdspxyc4x" path="res://assets/textures/Spike Trap.png" id="1_vkjfh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8erp"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_js1ub"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ro0na"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14wwc"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(224, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4fhc"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(288, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3tdx"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i3klk"]
+atlas = ExtResource("1_vkjfh")
+region = Rect2(416, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7hoap"]
+animations = [{
+"frames": [{
+"duration": 0.2,
+"texture": SubResource("AtlasTexture_u8erp")
+}, {
+"duration": 0.3,
+"texture": SubResource("AtlasTexture_js1ub")
+}, {
+"duration": 0.3,
+"texture": SubResource("AtlasTexture_ro0na")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_14wwc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4fhc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3tdx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i3klk")
+}],
+"loop": true,
+"name": &"spikes",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vd3h8"]
+size = Vector2(50, 53)
+
+[node name="Area2D" type="Area2D" unique_id=30177892]
+collision_layer = 4
+script = ExtResource("1_8pa67")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=450746688]
+position = Vector2(11.5, 12.5)
+scale = Vector2(1.71875, 1.78125)
+sprite_frames = SubResource("SpriteFrames_7hoap")
+animation = &"spikes"
+autoplay = "spikes"
+frame_progress = 0.43774906
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1055327570]
+position = Vector2(12, 14.5)
+shape = SubResource("RectangleShape2D_vd3h8")

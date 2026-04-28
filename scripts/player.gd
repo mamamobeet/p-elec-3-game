@@ -25,3 +25,14 @@ func _physics_process(delta: float) -> void:
 	else:
 		anim.play("default")
 		gun.visible = false
+
+
+func die():
+	# 1. Disable physics so the player doesn't keep moving/falling
+	set_physics_process(false)
+	# 2. Hide the player or play a death animation
+	hide() 
+	print("Player died! Restarting in 1 second...")
+	# 3. Wait for 1.0 seconds
+	await get_tree().create_timer(1.0).timeout
+	get_tree().reload_current_scene() # Restarts the level
