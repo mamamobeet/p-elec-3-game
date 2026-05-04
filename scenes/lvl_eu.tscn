@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cwrchhouemm5s" path="res://assets/textures/Interiors_free_16x16.png" id="5_csxag"]
 [ext_resource type="Texture2D" uid="uid://il7x6crl6r27" path="res://assets/textures/TopDownHouse_SmallItems.png" id="5_en8rm"]
 [ext_resource type="Texture2D" uid="uid://bvl2oit308nuh" path="res://assets/textures/Supplies.png" id="5_ofh6t"]
-[ext_resource type="Texture2D" uid="uid://br8lgyvhgr1rb" path="res://assets/textures/Room_Builder_free_16x16.png" id="6_78d3s"]
+[ext_resource type="Texture2D" uid="uid://dgrefbpn61klb" path="res://assets/textures/Room_Builder_free_16x16.png" id="6_78d3s"]
 [ext_resource type="Texture2D" uid="uid://13c6jl3w6afi" path="res://assets/textures/1.png" id="6_qsnnv"]
 [ext_resource type="Texture2D" uid="uid://dy5fhwci4p4h0" path="res://assets/textures/TopDownHouse_FurnitureState2.png" id="6_tmhnu"]
 [ext_resource type="Texture2D" uid="uid://dhj8uafcrfp1a" path="res://assets/textures/post apoc toxic wasteland set updated.png" id="7_d3j0y"]
