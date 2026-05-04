@@ -7,10 +7,11 @@
 atlas = ExtResource("2_og67c")
 region = Rect2(145, 4, 14, 9)
 
-[node name="Gun" type="Node2D" unique_id=936065167]
+[node name="Gun" type="Node2D" unique_id=1003682481]
 script = ExtResource("1_x77fm")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1702302328]
+position = Vector2(11.999999, -1.9073486e-06)
 scale = Vector2(3.2, 3.2)
 texture = SubResource("AtlasTexture_og67c")
 

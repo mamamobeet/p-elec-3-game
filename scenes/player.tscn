@@ -44,8 +44,9 @@ sprite_frames = SubResource("SpriteFrames_dqkch")
 animation = &"shoot"
 frame_progress = 0.75537986
 
-[node name="Gun" parent="." unique_id=936065167 instance=ExtResource("3_qhqgy")]
-position = Vector2(47, 25)
+[node name="Gun" parent="Sprite2D" unique_id=936065167 instance=ExtResource("3_qhqgy")]
+position = Vector2(15.333334, 9)
+scale = Vector2(0.33333334, 0.33333334)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2098719408]
 position = Vector2(-3, 0)
