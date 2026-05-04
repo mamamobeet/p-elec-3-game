@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bii526seetlg7"
-path="res://.godot/imported/Spike Trap.png-0d591218f0c5c054f941e89d0422512d.ctex"
+uid="uid://c53asvfnfpn04"
+path="res://.godot/imported/Suriken.png-a9791e360129339b0e6249070ae4bee2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/Spike Trap.png"
-dest_files=["res://.godot/imported/Spike Trap.png-0d591218f0c5c054f941e89d0422512d.ctex"]
+source_file="res://assets/tileset/Suriken.png"
+dest_files=["res://.godot/imported/Suriken.png-a9791e360129339b0e6249070ae4bee2.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bii526seetlg7"
-path="res://.godot/imported/Spike Trap.png-0d591218f0c5c054f941e89d0422512d.ctex"
+uid="uid://bxawm2o07gql8"
+path="res://.godot/imported/Surplus Trees.png-9cd348bd8f3cec705f0fd40e2be68e3a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/Spike Trap.png"
-dest_files=["res://.godot/imported/Spike Trap.png-0d591218f0c5c054f941e89d0422512d.ctex"]
+source_file="res://assets/tileset/Surplus Trees.png"
+dest_files=["res://.godot/imported/Surplus Trees.png-9cd348bd8f3cec705f0fd40e2be68e3a.ctex"]
 
 [params]
 
