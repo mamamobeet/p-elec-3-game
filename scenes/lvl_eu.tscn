@@ -5936,18 +5936,22 @@ layer_3/tile_data = PackedInt32Array(-393220, 65546, 1, 983032, 5, 16, 720894, 1
 position = Vector2(133, -347)
 
 [node name="Area2D2" parent="." unique_id=2092317857 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(650, -197)
 
 [node name="Area2D3" parent="." unique_id=622877871 instance=ExtResource("12_5e5gd")]
 position = Vector2(649, -142)
 
 [node name="Area2D4" parent="." unique_id=810523659 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(846, 517)
 
 [node name="Area2D5" parent="." unique_id=674507480 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(789, 520)
 
 [node name="Area2D6" parent="." unique_id=1885104778 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(921, 145)
 
 [node name="Area2D7" parent="." unique_id=1372284007 instance=ExtResource("12_5e5gd")]
@@ -5957,33 +5961,42 @@ position = Vector2(-223, 831)
 position = Vector2(-281, 832)
 
 [node name="Area2D9" parent="." unique_id=1815981586 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-670, 645)
 
 [node name="Area2D10" parent="." unique_id=1373584995 instance=ExtResource("12_5e5gd")]
 position = Vector2(-505, 365)
 
 [node name="Area2D11" parent="." unique_id=22821831 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-560, 367)
 
 [node name="Area2D12" parent="." unique_id=1785880982 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-467, 1075)
 
 [node name="Area2D13" parent="." unique_id=1019850202 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-670, 869)
 
 [node name="Area2D14" parent="." unique_id=731145622 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(243, 481)
 
 [node name="Area2D15" parent="." unique_id=407713648 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(63, 621)
 
 [node name="Area2D16" parent="." unique_id=1895951139 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(433, 940)
 
 [node name="Area2D17" parent="." unique_id=1265110764 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(433, 1149)
 
 [node name="Area2D18" parent="." unique_id=287992862 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(160, 832)
 
 [node name="Area2D19" parent="." unique_id=543966103 instance=ExtResource("12_5e5gd")]
@@ -6011,6 +6024,7 @@ position = Vector2(-874, -286)
 position = Vector2(-431, -395)
 
 [node name="Area2D27" parent="." unique_id=1205668997 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-35, 1093)
 
 [node name="Area2D28" parent="." unique_id=1418573973 instance=ExtResource("12_5e5gd")]
@@ -6020,4 +6034,5 @@ position = Vector2(-118, 388)
 position = Vector2(-146, 138)
 
 [node name="Area2D30" parent="." unique_id=1402445698 instance=ExtResource("12_5e5gd")]
+z_index = 2
 position = Vector2(-358, 417)
