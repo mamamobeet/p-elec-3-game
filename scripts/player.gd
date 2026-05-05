@@ -31,7 +31,6 @@ func die():
 	hide()
 	print("Player died! Restarting in 1 second...")
 	await get_tree().create_timer(1.0).timeout
-<<<<<<< HEAD
 	get_tree().reload_current_scene()
 
 func start_fire_flicker():
@@ -40,39 +39,12 @@ func start_fire_flicker():
 		self.modulate = Color(10, 0.2, 0.2)
 		await get_tree().create_timer(0.1).timeout
 		self.modulate = Color(1, 1, 1)
-=======
-	get_tree().reload_current_scene() # Restarts the level
-
-
-# for fire areanode
-func start_fire_flicker():
-	is_on_fire = true
-	while is_on_fire:
-		self.modulate = Color(10, 0.2, 0.2) 
-		await get_tree().create_timer(0.1).timeout
-		self.modulate = Color(1, 1, 1) 
-<<<<<<< Updated upstream
-=======
->>>>>>> 2fbafe7cfb34a52a1f272fea3aac7238a5956f7d
->>>>>>> Stashed changes
 		await get_tree().create_timer(0.1).timeout
 
 func stop_fire_flicker():
 	is_on_fire = false
 
-<<<<<<< Updated upstream
-
 func _on_fire_detector_body_entered(body: Node2D) -> void:
-	# This checks if the thing we stepped on is named 'obstacle'
-=======
-<<<<<<< HEAD
-func _on_fire_detector_body_entered(body: Node2D) -> void:
-=======
-
-func _on_fire_detector_body_entered(body: Node2D) -> void:
-	# This checks if the thing we stepped on is named 'obstacle'
->>>>>>> 2fbafe7cfb34a52a1f272fea3aac7238a5956f7d
->>>>>>> Stashed changes
 	if body.name == "obstacle":
 		start_fire_flicker()
 
