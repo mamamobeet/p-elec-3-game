@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxawm2o07gql8"
-path="res://.godot/imported/Surplus Trees.png-9cd348bd8f3cec705f0fd40e2be68e3a.ctex"
+uid="uid://bb3kthtokvldl"
+path="res://.godot/imported/Surplus Trees.png-c99bee720477812ea34877cb2f480fff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/Surplus Trees.png"
-dest_files=["res://.godot/imported/Surplus Trees.png-9cd348bd8f3cec705f0fd40e2be68e3a.ctex"]
+source_file="res://assets/textures/Surplus Trees.png"
+dest_files=["res://.godot/imported/Surplus Trees.png-c99bee720477812ea34877cb2f480fff.ctex"]
 
 [params]
 

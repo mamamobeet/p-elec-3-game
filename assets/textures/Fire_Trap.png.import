@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rb3vag5mswi2"
-path="res://.godot/imported/Fire_Trap.png-a2f8b484f6418d52abaa409f77f0885c.ctex"
+uid="uid://bslcwbfi0pks0"
+path="res://.godot/imported/Fire_Trap.png-7097f545cd55af55c3f4000164316d74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tileset/Fire_Trap.png"
-dest_files=["res://.godot/imported/Fire_Trap.png-a2f8b484f6418d52abaa409f77f0885c.ctex"]
+source_file="res://assets/textures/Fire_Trap.png"
+dest_files=["res://.godot/imported/Fire_Trap.png-7097f545cd55af55c3f4000164316d74.ctex"]
 
 [params]
 
