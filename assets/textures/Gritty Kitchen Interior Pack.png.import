@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do3qcqfeqg6v"
-path="res://.godot/imported/Gritty Kitchen Interior Pack.png-1b961b1799890553cbf2e69f49ecd0d4.ctex"
+path="res://.godot/imported/Gritty Kitchen Interior Pack.png-50d6dd768677424c468c6113c2b5990c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FinalEasy/assets/objeects/Gritty Kitchen Interior Pack.png"
-dest_files=["res://.godot/imported/Gritty Kitchen Interior Pack.png-1b961b1799890553cbf2e69f49ecd0d4.ctex"]
+source_file="res://assets/textures/Gritty Kitchen Interior Pack.png"
+dest_files=["res://.godot/imported/Gritty Kitchen Interior Pack.png-50d6dd768677424c468c6113c2b5990c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hut8chnwukw6"
-path="res://.godot/imported/D (for release).png-4b792fec665b465a24e6f819817fb8df.ctex"
+path="res://.godot/imported/D (for release).png-78d5438ad300dc3fbba67817cda2e8a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FinalEasy/assets/objeects/D (for release).png"
-dest_files=["res://.godot/imported/D (for release).png-4b792fec665b465a24e6f819817fb8df.ctex"]
+source_file="res://assets/textures/D (for release).png"
+dest_files=["res://.godot/imported/D (for release).png-78d5438ad300dc3fbba67817cda2e8a5.ctex"]
 
 [params]
 
