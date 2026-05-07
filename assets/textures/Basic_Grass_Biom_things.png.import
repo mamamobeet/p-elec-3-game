@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bx2n41c0c78yj"
-path="res://.godot/imported/Basic_Grass_Biom_things.png-46e6c57a25d3acaa8603243b996b35df.ctex"
+uid="uid://dug43f0aaef2f"
+path="res://.godot/imported/Basic_Grass_Biom_things.png-103b0f2e8ffa95fcd55b7c8c8e6df39f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/Basic_Grass_Biom_things.png"
-dest_files=["res://.godot/imported/Basic_Grass_Biom_things.png-46e6c57a25d3acaa8603243b996b35df.ctex"]
+source_file="res://FinalEasy/assets/objeects/Basic_Grass_Biom_things.png"
+dest_files=["res://.godot/imported/Basic_Grass_Biom_things.png-103b0f2e8ffa95fcd55b7c8c8e6df39f.ctex"]
 
 [params]
 
