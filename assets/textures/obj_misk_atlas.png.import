@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmn8pstnuh8xl"
-path="res://.godot/imported/obj_misk_atlas.png-315fd98f00166452c4caa6fc12dd92f1.ctex"
+path="res://.godot/imported/obj_misk_atlas.png-26e7ec116472d00ceaacf78eddc153b3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FinalEasy/assets/objeects/obj_misk_atlas.png"
-dest_files=["res://.godot/imported/obj_misk_atlas.png-315fd98f00166452c4caa6fc12dd92f1.ctex"]
+source_file="res://assets/textures/obj_misk_atlas.png"
+dest_files=["res://.godot/imported/obj_misk_atlas.png-26e7ec116472d00ceaacf78eddc153b3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dntngwos32pck"
-path="res://.godot/imported/Trees_animation.png-2614d63b03705b852dc9397750f5cc96.ctex"
+path="res://.godot/imported/Trees_animation.png-37d353b188c060be5de83c5849f7dc6d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FinalEasy/assets/objeects/Trees_animation.png"
-dest_files=["res://.godot/imported/Trees_animation.png-2614d63b03705b852dc9397750f5cc96.ctex"]
+source_file="res://assets/textures/Trees_animation.png"
+dest_files=["res://.godot/imported/Trees_animation.png-37d353b188c060be5de83c5849f7dc6d.ctex"]
 
 [params]
 

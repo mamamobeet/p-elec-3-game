@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duv3ljaapd0at"
-path="res://.godot/imported/TopDownHouse_FloorsAndWalls.png-ba8d7fd38039bc126aef8fc0f6f0d43b.ctex"
+path="res://.godot/imported/TopDownHouse_FloorsAndWalls.png-1acf6f68c959f9c0154183f17eef7ae8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FinalEasy/assets/objeects/TopDownHouse_FloorsAndWalls.png"
-dest_files=["res://.godot/imported/TopDownHouse_FloorsAndWalls.png-ba8d7fd38039bc126aef8fc0f6f0d43b.ctex"]
+source_file="res://assets/textures/TopDownHouse_FloorsAndWalls.png"
+dest_files=["res://.godot/imported/TopDownHouse_FloorsAndWalls.png-1acf6f68c959f9c0154183f17eef7ae8.ctex"]
 
 [params]
 
